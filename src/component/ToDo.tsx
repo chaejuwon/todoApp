@@ -43,7 +43,11 @@ const TodoItem = styled.div`
   border: 1px solid #dee2e6;
   border-radius: 12px;
   padding: 20px;
-
+  @media all and (max-width: 500px) {
+    min-width: auto;
+    max-width: auto;
+    width: 100%;
+  }
   h2 {
     font-size: 22px;
     font-weight: bold;
