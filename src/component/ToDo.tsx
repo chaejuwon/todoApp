@@ -15,6 +15,9 @@ const TodoWrap = styled.div`
   justify-content: center;
   gap: 30px;
   padding: 0 20px;
+  @media all and(max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 const ModifyBtn = styled.a`
