@@ -44,8 +44,8 @@ const TodoItem = styled.div`
   border-radius: 12px;
   padding: 20px;
   @media all and (max-width: 500px) {
-    min-width: auto;
-    max-width: auto;
+    min-width: 100%;
+    max-width: 100%;
     width: 100%;
   }
   h2 {
